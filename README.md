@@ -1,6 +1,8 @@
-# Frontend Mentor - REPLACE
+# The Odin Project - Admin Dashboard
 
-- TO REPLACE
+[Admin Dashboard](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard)
+
+![Modele Template](/assets/images/dashboard-project-template.png)
 
 ## Table of contents
 
@@ -28,8 +30,8 @@ template
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/Ryusaem/js-interactive-rating-component)
-- Live Site URL: [Github Live Demo](https://ryusaem.github.io/js-interactive-rating-component/)
+- Solution URL: [GitHub](https://github.com/Ryusaem/css-admin-dashboard-odin-project)
+- Live Site URL: [Github Live Demo](https://ryusaem.github.io/css-admin-dashboard-odin-project/)
 
 ## My process
 
@@ -63,7 +65,7 @@ Total:
 
 ### Useful resources -
 
-[Frontend Mentor](https://www.frontendmentor.io/challenges/) - Formidable resources to make you learn by "doing" awesome project. Highly recommend it.
+[The Odin Project](https://www.theodinproject.com) - Best Full Stack course with beautiful resources.
 
 ## Author -
 
