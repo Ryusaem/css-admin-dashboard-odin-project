@@ -66,6 +66,15 @@ Total:
 ### Useful resources -
 
 [The Odin Project](https://www.theodinproject.com) - Best Full Stack course with beautiful resources.
+[Pictogrammers](https://pictogrammers.com/library/mdi/) - Library for Icons.
+[Color Palette from Tailwind](https://tailwindcss.com/docs/customizing-colors)
+
+[Model from Hmjatt](https://hmjatt.github.io/Admin-Dashboard/)
+[Model from Ilyaeru](https://ilyaeru.github.io/TOP-Project-Admin-Dashboard/)
+[Model from Mmackz](https://mmackz.github.io/admin-dashboard/)
+[Model from 1rucebee (fixed sidebar while scroling)](https://lrucebee.github.io/odin-admin-dashboard/)
+[Model from Bonanno (very simple and clean..love it)](https://s-bonanno.github.io/odin-dashboard/)
+[Repository](https://github.com/s-bonanno/odin-dashboard)
 
 ## Author -
 
