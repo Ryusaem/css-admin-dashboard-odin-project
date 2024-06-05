@@ -2,6 +2,8 @@
   --color-base-primary: hsl(25, 97%, 53%);
   --color-base-bg: hsl(216, 12%, 8%);
   --color-base-text: hsl(217, 12%, 63%);
+
+  --margin: 20px;
 }
 
 /* --- GLOBAL RESET --- */
@@ -9,6 +11,231 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 0.8fr 8fr;
+  grid-template-areas:
+    "header header"
+    "sidebar main";
+  /* border: 2px solid red; */
+  padding: 10px 0px;
+  row-gap: 20px;
+}
+
+/* --- HEADER --- */
+
+.header-container {
+  /* border: 2px solid red; */
+  grid-area: header;
+
+  display: grid;
+  grid-template-areas: "title test";
+  grid-template-columns: subgrid;
+  align-items: center;
+  margin-left: var(--margin);
+  margin-right: var(--margin);
+}
+
+.header-content {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 3fr auto auto;
+  gap: 4px;
+  position: relative;
+  /* justify-items: center; */
+}
+
+.header-content .icon {
+  position: relative;
+  height: 28px;
+  border-radius: 20px;
+}
+
+.header-content .user-name {
+  padding: 5px 20px;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+  letter-spacing: 1px;
+  align-self: center;
+}
+
+.site-title {
+  grid-area: title;
+}
+
+input[type="search"] {
+  appearance: none;
+  width: 80%;
+  /* height: 20px; */
+}
+
+/* --- SIDEBAR --- */
+
+.sidebar {
+  /* background-color: bisque; */
+  /* margin-left: 20px; */
+
+  grid-area: sidebar;
+  position: relative;
+  margin-left: var(--margin);
+  margin-right: var(--margin);
+  /* display: grid; */
+  /* justify-items: center; */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  gap: 15px; /* space between list items */
+  /* position: relative; */
+}
+
+.sidebar ul li {
+  /* border: 1px solid blue; */
+
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px; /* space between icon and text */
+  align-items: center;
+  position: relative;
+}
+
+.sidebar .icon img {
+  width: 100%;
+  height: 20px;
+  position: relative;
+  top: 2px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: black;
+}
+
+/* --- MAIN --- */
+
+.main {
+  /* background-color: aquamarine; */
+  /* border: 1px solid green; */
+
+  grid-area: main;
+
+  margin-right: var(--margin); /* space between main and edge screen */
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-areas:
+    "projects annoucements"
+    "projects trending";
+}
+
+.main .title {
+  /* margin-left: 20px; */
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+/* --- PROJECTS --- */
+
+.main .projects {
+  /* border: 2px solid blue; */
+
+  grid-area: projects;
+
+  /* margin-right: var(--margin); */
+  padding: 0 var(--margin); /* space between main and edge screen */
+}
+
+.main .projects .project-card-container {
+  /* border: 2px solid pink; */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; /* space between project cards */
+  /* margin-left: 20px;
+  margin-right: 20px; */
+}
+
+/* --- CARD --- */
+
+.main .projects .project-card-container .project-card {
+  /* border: 1px solid black; */
+  background-color: whitesmoke;
+
+  border-left: 5px solid gray;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.project-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 0.9rem;
+}
+
+.main .projects .project-card-container .project-card .project-link-container {
+  /* border: 2px solid red; */
+
+  display: grid;
+  grid-auto-flow: column; /* align items in a row */
+  justify-content: end;
+  gap: 15px; /* space between icon and text */
+
+  margin-top: 35px;
+}
+
+.main
+  .projects
+  .project-card-container
+  .project-card
+  .project-link-container
+  a
+  img {
+  height: 20px;
+}
+
+.main
+  .projects
+  .project-card-container
+  .project-card
+  .project-link-container
+  a {
+  text-decoration: none;
+}
+
+/* --- ANNOUCEMENTS */
+
+.main .annoucements {
+  border: 2px solid red;
+
+  grid-area: annoucements;
+}
+
+.main .annoucements .annoucements-container {
+  border: 2px solid blue;
+
+  display: grid;
+  gap: 20px;
+}
+
+.main .trending {
+  grid-area: trending;
 }
 
 /* --- FOOTER --- */

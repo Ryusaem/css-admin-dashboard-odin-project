@@ -75,6 +75,7 @@ Total:
 [Model from 1rucebee (fixed sidebar while scroling)](https://lrucebee.github.io/odin-admin-dashboard/)
 [Model from Bonanno (very simple and clean..love it)](https://s-bonanno.github.io/odin-dashboard/)
 [Repository](https://github.com/s-bonanno/odin-dashboard)
+[Model from Vladimir Gruev](https://dribbble.com/shots/18098572-fintech-app-dashboard)
 
 ## Author -
 
