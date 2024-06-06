@@ -23,6 +23,8 @@
 
 - TO REPLACE
 
+- Need to add the REAL SVG Link (for styling purpose) ... Apparently I can't style with file svg that I have downloaded unless I'm still not aware of how to do it....I'll invistage more
+
 ### Screenshot
 
 template
