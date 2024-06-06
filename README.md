@@ -78,6 +78,7 @@ Total:
 [Model from Bonanno (very simple and clean..love it)](https://s-bonanno.github.io/odin-dashboard/)
 [Repository](https://github.com/s-bonanno/odin-dashboard)
 [Model from Vladimir Gruev](https://dribbble.com/shots/18098572-fintech-app-dashboard)
+[20 Admin design](https://speckyboy.com/beautifully-designed-admin-dashboards/)
 
 ## Author -
 
